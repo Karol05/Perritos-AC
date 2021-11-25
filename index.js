@@ -1,5 +1,7 @@
 function registrar() {
     console.log("holi")
+    
+    const fecha = new Date();
 
     const nameDueno = document.getElementById("nameDueño").value;
     const razaPet = document.getElementById("razaPet").value;
@@ -9,23 +11,16 @@ function registrar() {
     axios.defaults.headers.post['Content-Type'] = 'application/json;charset=utf-8';
     axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
 
-    //alert
-    new swal({
-        icon: "success",
-        title: "se creo un nuevo mascota"
-    });
     
     axios.post("http://localhost:8000/nuevamascota", {
         nameDueno1: nameDueno,
         razaPet1: razaPet,
         namePet1: namePet,
-        numberphone1: numberphone
+        numberphone1: numberphone,
+        fecha1: fecha
         
     }).then((data) => {
-        swal({
-            icon: "success",
-            title: "se creo un nuevo mascota"
-          });
+        swal("Good job!", "You clicked the button!", "success");
         console.log(data);
         console.log("registro")
     }).catch(e => { console.log("fallo :c"); })
