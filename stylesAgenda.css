@@ -1,3 +1,19 @@
+.arriba{
+	background-color: rgba(255, 140.08012175559998, 75.43750405311584, 1);
+    width: 317px;
+    height: 66px;
+    position: absolute;
+    left: 1037px;
+    top: 181px;
+}
+.citaFecha{
+	background-color: rgba(248.62500607967377, 245.97300678491592, 244.4812524318695, 1);
+    width: 317px;
+    height: 587px;
+    position: absolute;
+    left: 1037px;
+    top: 247px;
+}
 .e104_4 { 
 	background-color:rgba(255, 255, 255, 1);
 	width:1440px;
@@ -62,57 +78,57 @@
 	letter-spacing:0;
 }
 .e105_46 { 
-	background-color:rgba(248.62500607967377, 245.97300678491592, 244.4812524318695, 1);
-	width:423px;
-	height:653px;
-	position:absolute;
-	left:84px;
-	top:181px;
+    background-color: rgba(248.62500607967377, 245.97300678491592, 244.4812524318695, 1);
+    width: 318px;
+    height: 587px;
+    position: absolute;
+    left: 84px;
+    top: 247px;
 }
 
 .e105_49 { 
-	background-color:rgba(255, 140.08012175559998, 75.43750405311584, 1);
-	width:423px;
-	height:66px;
-	position:absolute;
-	left:84px;
-	top:181px;
+    background-color: rgba(255, 140.08012175559998, 75.43750405311584, 1);
+    width: 318px;
+    height: 66px;
+    position: absolute;
+    left: 84px;
+    top: 181px;
 }
 
 .e105_47 { 
-	background-color:rgba(248.62500607967377, 245.97300678491592, 244.4812524318695, 1);
-	width:423px;
-	height:653px;
-	position:absolute;
-	left:508px;
-	top:181px;
+    background-color: rgba(248.62500607967377, 245.97300678491592, 244.4812524318695, 1);
+    width: 318px;
+    height: 587px;
+    position: absolute;
+    left: 402px;
+    top: 247px;
 }
 
 .e105_50 { 
-	background-color:rgba(255, 140.08012175559998, 75.43750405311584, 1);
-	width:423px;
-	height:66px;
-	position:absolute;
-	left:508px;
-	top:181px;
+    background-color: rgba(255, 140.08012175559998, 75.43750405311584, 1);
+    width: 318px;
+    height: 66px;
+    position: absolute;
+    left: 402px;
+    top: 181px;
 }
 
 .e105_48 { 
-	background-color:rgba(248.62500607967377, 245.97300678491592, 244.4812524318695, 1);
-	width:423px;
-	height:652px;
-	position:absolute;
-	left:931px;
-	top:182px;
+    background-color: rgba(248.62500607967377, 245.97300678491592, 244.4812524318695, 1);
+    width: 317px;
+    height: 587px;
+    position: absolute;
+    left: 720px;
+    top: 247px;
 }
 
 .e105_51 { 
-	background-color:rgba(255, 140.08012175559998, 75.43750405311584, 1);
-	width:423px;
-	height:65px;
-	position:absolute;
-	left:931px;
-	top:182px;
+    background-color: rgba(255, 140.08012175559998, 75.43750405311584, 1);
+    width: 317px;
+    height: 65px;
+    position: absolute;
+    left: 720px;
+    top: 182px;
 }
 
 .e105_45 { 
@@ -127,38 +143,50 @@
 	background-size:cover;
 }
 .e105_52 { 
-	color:rgba(255, 255, 255, 1);
-	width:463px;
-	height:48px;
-	position:absolute;
-	left:64px;
-	top:190px;
-	font-family:Podkova;
-	text-align:center;
-	font-size:48px;
-	letter-spacing:0;
+    color: rgba(255, 255, 255, 1);
+    width: 308px;
+    height: 48px;
+    position: absolute;
+    left: 60px;
+    top: 197px;
+    font-family: Podkova;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0;
 }
 .e105_53 { 
-	color:rgba(255, 255, 255, 1);
-	width:463px;
-	height:48px;
-	position:absolute;
-	left:488px;
-	top:190px;
-	font-family:Podkova;
-	text-align:center;
-	font-size:48px;
-	letter-spacing:0;
+	color: rgba(255, 255, 255, 1);
+    width: 305px;
+    height: 48px;
+    position: absolute;
+    left: 415px;
+    top: 197px;
+    font-family: Podkova;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0;
 }
 .e105_54 { 
-	color:rgba(255, 255, 255, 1);
-	width:463px;
-	height:48px;
-	position:absolute;
-	left:911px;
-	top:190px;
-	font-family:Podkova;
-	text-align:center;
-	font-size:48px;
-	letter-spacing:0;
+	color: rgba(255, 255, 255, 1);
+    width: 337px;
+    height: 55px;
+    position: absolute;
+    left: 710px;
+    top: 197px;
+    font-family: Podkova;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0;
+}
+.estiloF{
+	color: rgba(255, 255, 255, 1);
+    width: 305px;
+    height: 48px;
+    position: absolute;
+    left: 1043px;
+    top: 197px;
+    font-family: Podkova;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0;
 }

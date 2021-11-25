@@ -20,7 +20,7 @@ function registrar() {
         fecha1: fecha
         
     }).then((data) => {
-        swal("Good job!", "You clicked the button!", "success");
+        swal("Buen trabajo!", "Se ha registrado con exito!", "success");
         console.log(data);
         console.log("registro")
     }).catch(e => { console.log("fallo :c"); })
@@ -38,18 +38,24 @@ function visualizarDatos() {
         const numberphone = document.getElementById("numberphone");
         const numerophone = document.getElementById("numerophone");
 
+        const date = document.getElementById("date");
+        const date2 = document.getElementById("fecha");
+
         namedueno.appendChild(namepet);
         namepet3.appendChild(namepet4);
         numberphone.appendChild(numerophone);
+        date.appendChild(date2);
 
         for (let i = 0; i < data.data.length; i++) {
             let datos = document.createElement("li")
             let datos2 = document.createElement("li")
             let datos3 = document.createElement("li")
+            let datos4 = document.createElement("li")
 
             let creartext = document.createTextNode(data.data[i].nombredueno)
             let creartextpet = document.createTextNode(data.data[i].nombremascota)
             let creartextnumber = document.createTextNode(data.data[i].numerocelular)
+            let creartexfecha = document.createTextNode(data.data[i].fecha)
 
 
             datos.appendChild(creartext);
@@ -60,6 +66,9 @@ function visualizarDatos() {
 
             datos3.appendChild(creartextnumber);
             numerophone.appendChild(datos3);
+
+            datos4.appendChild(creartexfecha);
+            date2.appendChild(datos4);
 
         }
 
