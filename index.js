@@ -9,6 +9,11 @@ function registrar() {
     axios.defaults.headers.post['Content-Type'] = 'application/json;charset=utf-8';
     axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
 
+    //alert
+    new swal({
+        icon: "success",
+        title: "se creo un nuevo mascota"
+});
     
     axios.post("http://localhost:8000/nuevamascota", {
         nameDueno1: nameDueno,
