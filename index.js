@@ -13,7 +13,7 @@ function registrar() {
     new swal({
         icon: "success",
         title: "se creo un nuevo mascota"
-});
+    });
     
     axios.post("http://localhost:8000/nuevamascota", {
         nameDueno1: nameDueno,
